@@ -1,0 +1,30 @@
+.btn {
+    border: 1px solid;
+    padding: 7px;
+    width: 14rem;
+    background: none;
+    color: #000;
+    border-radius:3px;
+    &:hover {
+        background: #03c3e6;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    @media (max-width: $desktop-breakpoint) {
+        width: 68%;
+        margin: $s-size 0 0 0;
+    }
+}
+
+.btn-container {
+    display:flex;
+    justify-content: center;
+    margin: 5px;
+
+    button{
+        background: none;
+        color: #000;
+        border: 1px solid;
+    }
+}

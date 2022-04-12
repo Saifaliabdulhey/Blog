@@ -1,0 +1,27 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title_input {
+    width: 60%;
+    padding: 10px;
+    margin-bottom:20px;
+    border: 1px solid #00ccff;
+    background-color: #92929221;
+    outline: none;
+    border-radius: 3px;
+}
+
+.textarea {
+    width: 60%;
+    padding: 10px;
+    margin-bottom:20px;
+    border: 1px solid #00ccff;
+    background-color: #92929221;
+    outline: none;
+    border-radius: 3px;
+    height: 10rem;
+}

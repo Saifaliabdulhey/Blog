@@ -1,0 +1,14 @@
+.header {
+    background: $light-blue;
+    margin: top 0;
+    height: 90px;
+    color: white;
+    width: 100%;
+}
+
+
+.header_content {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}

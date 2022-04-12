@@ -1,0 +1,28 @@
+.filter_things {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: $m-size 0;
+    @media (max-width: $desktop-breakpoint) {
+        display: flex;
+        justify-content:center;
+        flex-direction:column;
+    }
+}
+
+.input {
+    padding: 7px;
+    border: none;
+    background-color: #1b19192c;
+    border-radius: 3px;
+    outline: none;
+}
+
+.select {
+    margin-left: 10px;
+    padding: 7px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+

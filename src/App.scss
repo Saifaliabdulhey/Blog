@@ -1,0 +1,13 @@
+@import './styles/settings';
+@import './styles/components/header';
+@import './styles/components/container';
+@import './styles/components/filter-space';
+@import './styles/components/button';
+@import './styles/components/list';
+@import './styles/components/inputs';
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+

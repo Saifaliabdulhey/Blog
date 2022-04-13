@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PostListItem from './PostListItem';
-// import selectExpenses from '../selectors/expenses';
+import selectPosts from '../selectors/posts';
 
 
 export const PostList = (props) => {
@@ -26,7 +26,7 @@ export const PostList = (props) => {
 }
 const mapStateToPraps = (state) => {
     return {
-        posts: state.posts
+        posts: selectPosts(state.posts, state.filters.text)
     }
 };
 export default connect(mapStateToPraps)(PostList);

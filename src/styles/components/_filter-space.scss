@@ -11,7 +11,7 @@
 }
 
 .input {
-    padding: 7px;
+    padding: 10px;
     border: none;
     background-color: #1b19192c;
     border-radius: 3px;
@@ -25,4 +25,13 @@
     border: none;
     border-radius: 3px;
 }
-
+.filter_search_box {
+    position: relative;
+}
+.search_icon {
+    width: 25px;
+    position: absolute;
+    left: 9.5rem;
+    margin-top:3px;
+}
+ 

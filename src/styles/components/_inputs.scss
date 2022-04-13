@@ -9,19 +9,46 @@
     width: 60%;
     padding: 10px;
     margin-bottom:20px;
-    border: 1px solid #00ccff;
+    border: 1px solid rgba(36, 23, 218, 0.945);;
     background-color: #92929221;
     outline: none;
     border-radius: 3px;
+    @media (max-width: $desktop-breakpoint) {
+        width: 100%;
+    }
 }
 
 .textarea {
     width: 60%;
     padding: 10px;
     margin-bottom:20px;
-    border: 1px solid #00ccff;
+    border: 1px solid rgba(36, 23, 218, 0.945);
     background-color: #92929221;
     outline: none;
     border-radius: 3px;
     height: 10rem;
+    @media (max-width: $desktop-breakpoint) {
+        width: 100%;
+    }
 }
+
+.read_link {
+    text-decoration: none;
+    @media (max-width: $desktop-breakpoint) {
+        font-size: 8px;
+        text-decoration: none;
+    }
+
+h4 {
+    span {
+        font-size: 20px;
+        color: #333;
+        @media (max-width: $desktop-breakpoint) {
+            font-size: 8px;
+            text-decoration: none;
+        }
+       
+    }
+}
+}
+

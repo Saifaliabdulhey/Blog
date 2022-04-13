@@ -5,17 +5,37 @@
     margin: $m-size 0;
     @media (max-width: $desktop-breakpoint) {
         display: flex;
-        justify-content:center;
-        flex-direction:column;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .btn_add {
+        text-decoration: none;
+        padding: 7px;
+        max-width: 10rem;
+        text-align: center;
+        border-radius: 3px;
+        color: #fff;
+        background: rgba(36, 23, 218, 0.945);
+        &:hover {
+            background: rgba(36, 23, 218, 0.842);
+        }
+
+        @media (max-width: $desktop-breakpoint) {
+            width: 68%;
+            margin: $s-size 0 0 0;
+        }
     }
 }
 
 .input {
-    padding: 10px;
+    padding: 7px;
     border: none;
     background-color: #1b19192c;
     border-radius: 3px;
     outline: none;
+    border: 1px solid white;
+    width: 15rem;
 }
 
 .select {
@@ -31,7 +51,7 @@
 .search_icon {
     width: 25px;
     position: absolute;
-    left: 9.5rem;
-    margin-top:3px;
+    left: 14rem;
+    margin-top: 3px;
+    filter: invert(100%);
 }
- 

@@ -53,7 +53,7 @@ class componentName extends Component {
                     onChange={this.onDescriptionChange}
                 >
                 </textarea>
-                <button className="btn">Save Post</button>
+                <button className="btn_add">Save Post</button>
             </form>
         );
     }

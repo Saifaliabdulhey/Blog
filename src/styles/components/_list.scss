@@ -1,14 +1,16 @@
 .list_item_title {
-    background: #e4e1e1e7;
+    background: #e4e1e13d;
     padding:$m-size;
     border-radius: 3px;
     word-break: break-all;
     transition: all 100ms ease-in-out;
     margin-bottom: 10px;
     margin-top: 10px;
+    text-indent: 40px;
     &:hover {
-        background: #d4d3d3c5;
+        background: rgba(36, 23, 218, 0.945);
         cursor: pointer;
+        color: #fff;
     }
 }
 
@@ -24,4 +26,9 @@
     justify-content:center;
     align-items:center;
 
+}
+
+.list_item {
+    text-decoration: none;
+    color: #000;
 }

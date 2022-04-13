@@ -3,12 +3,13 @@ import {createRoot}  from 'react-dom/client';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Loading from './components/Loading'
 
 export const root = createRoot(document.getElementById('root'))
 
 root.render(
   <React.StrictMode>
-    <App />
+  <Loading />
   </React.StrictMode>,
 );
 

@@ -11,11 +11,12 @@ export const PostList = (props) => {
                 {
 
                    props.posts.length === 0 ? (
-                        <div className="list-item list-item--message">
-                            <span>Loading...</span>
-                        </div>
+                    <div className="list-item list-item--message container">
+                    <p>No Posts there!</p>    
+                    </div>
                     ) : (
                         props.posts.map((post) => {
+                            <span>Loading...</span>
                             return <PostListItem key={post.id} {...post} />
                         })
                     )

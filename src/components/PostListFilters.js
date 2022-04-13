@@ -21,9 +21,9 @@ export class PostListFilters extends Component {
                                 onChange={this.onTextChange} />
                                 <img className="search_icon" src={search}/>
                         </div>
-                        <Link className="btn" to="/add">Add Post</Link>
+                        <Link className="btn_add" to="/add">Add Post</Link>
                     </div>
-                    <hr></hr>
+
                 </div>
             </div>
         )

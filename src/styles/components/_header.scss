@@ -1,6 +1,5 @@
 .header {
-    background: $light-blue;
-    margin: top 0;
+    background: rgba(36, 23, 218, 0.945);
     height: 90px;
     color: white;
     width: 100%;
@@ -11,4 +10,25 @@
     display: flex;
     justify-content:space-between;
     align-items:center;
+
+    h1 {
+        color: white;
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+        filter: invert(100%);
+        margin: 10px;
+        &:hover {
+            border-radius:50%;
+            cursor: pointer;
+            filter: invert(90%);
+        }
+    }
+}
+
+
+.logo {
+    text-decoration: none;
 }

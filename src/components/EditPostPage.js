@@ -27,10 +27,10 @@ export class EditPostPage extends Component {
                         post={this.props.post}
                         onSubmit={this.onSubmit} />
                     <div className="container btn-container">
-                        <button className="btn" onClick={this.onRemove}>Remove Post</button>
+                        <button  onClick={this.onRemove}>Remove Post</button>
                     </div>
-                    <Link to={`/read/${id}`}>
-                    <h4>Post is Readable at:{`${path}/read/${id}`}</h4>
+                    <Link className="read_link" to={`/read/${id}`}>
+                    <h4><span>Post is Readable at:</span>{`${path}/read/${id}`}</h4>
                     </Link>
                     
                 </div>

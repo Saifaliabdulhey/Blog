@@ -1,4 +1,5 @@
 {
+  "homepage": "http://saifaliabdulhey.github.io/Blog",
   "name": "deployment-test",
   "version": "0.1.0",
   "private": true,
@@ -6,8 +7,11 @@
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "body-parser": "^1.20.0",
     "create-history": "^2.1.1",
+    "enzyme-adapter-react-16": "^1.15.6",
     "firebase": "4.2.0",
+    "graceful-fs": "4.1.8",
     "history": "4.7.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -22,6 +26,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -43,5 +49,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "enzyme": "2.9.1",
+    "enzyme-to-json": "^3.6.2",
+    "eslint": "^8.13.0",
+    "eslint-plugin-react": "^7.29.4",
+    "gh-pages": "^3.2.3",
+    "jest": "20.0.4",
+    "react-test-renderer": "^18.0.0",
+    "redux-mock-store": "^1.5.4"
   }
 }

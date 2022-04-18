@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render AddPostsPage correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <div
+      className="container"
+    >
+      <h1>
+        Add Post
+      </h1>
+    </div>
+    <div
+      className="container"
+    >
+      <componentName
+        onSubmit={[Function]}
+      />
+    </div>
+  </div>,
+  "nodes": Array [
+    <div>
+      <div
+        className="container"
+      >
+        <h1>
+          Add Post
+        </h1>
+      </div>
+      <div
+        className="container"
+      >
+        <componentName
+          onSubmit={[Function]}
+        />
+      </div>
+    </div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_didScheduleRenderPhaseUpdate": false,
+    "_dispatcher": Object {
+      "readContext": [Function],
+      "useCallback": [Function],
+      "useContext": [Function],
+      "useDebugValue": [Function],
+      "useDeferredValue": [Function],
+      "useEffect": [Function],
+      "useId": [Function],
+      "useImperativeHandle": [Function],
+      "useInsertionEffect": [Function],
+      "useLayoutEffect": [Function],
+      "useMemo": [Function],
+      "useReducer": [Function],
+      "useRef": [Function],
+      "useResponder": [Function],
+      "useState": [Function],
+      "useSyncExternalStore": [Function],
+      "useTransition": [Function],
+    },
+    "_element": <AddPostPage
+      history={
+        Object {
+          "push": [MockFunction],
+        }
+      }
+      startAddPosts={[MockFunction]}
+    />,
+    "_firstWorkInProgressHook": null,
+    "_forcedUpdate": false,
+    "_idCounter": 0,
+    "_instance": AddPostPage {
+      "context": Object {},
+      "onSubmit": [Function],
+      "props": Object {
+        "history": Object {
+          "push": [MockFunction],
+        },
+        "startAddPosts": [MockFunction],
+      },
+      "refs": Object {},
+      "state": null,
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": [Circular],
+      },
+    },
+    "_isReRender": false,
+    "_newState": null,
+    "_numberOfReRenders": 0,
+    "_renderPhaseUpdates": null,
+    "_rendered": <div>
+      <div
+        className="container"
+      >
+        <h1>
+          Add Post
+        </h1>
+      </div>
+      <div
+        className="container"
+      >
+        <componentName
+          onSubmit={[Function]}
+        />
+      </div>
+    </div>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "_workInProgressHook": null,
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <AddPostPage
+    history={
+      Object {
+        "push": [MockFunction],
+      }
+    }
+    startAddPosts={[MockFunction]}
+  />,
+}
+`;

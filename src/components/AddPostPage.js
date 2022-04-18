@@ -3,7 +3,7 @@ import PostForm from './PostForm';
 import { connect } from 'react-redux';
 import { startAddPosts } from '../actions/posts'
 
-class AddPostPage extends Component {
+export class AddPostPage extends Component {
 
     onSubmit = (post) => {
         this.props.startAddPosts(post);
